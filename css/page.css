@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../image/abba8.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+#retour {
+    margin: 5px;
+    border: 2px solid white;
+    background-color: orange;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+}
+#logo{
+    width: 80px;
+    height: 70px;
+    border: 1px solid white;
+
+}
+.menu{
+    display: flex;
+    align-items: center; 
+    padding: 20px;
+    background-image: url('../image/abba8.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo img{
+    width: 100px;
+}
+.enhaut{
+    display: flex;
+    width: 100%;
+}
+.enhaut i{
+    color: white;
+}
+.panie{
+    width:20%;
+    margin-left:90%;
+}
+.naviguer{
+    position: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.recherche{
+    display: flex;
+    width:100%;
+    margin-left: 10px;
+}
+.recherche > ul {
+    display: flex;
+}
+.recherche i{
+    color: white;
+}
+.recherche > ul>li {
+    list-style-type: none;
+}
+.recherche > ul>li> ul> li{
+    display: none;
+}
+.recherche > ul>li:hover ul> li{
+    display: flex;
+}
+.input{
+    display: flex;
+}
+#recherche{
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 3px;
+    list-style-type: none;
+
+}
+#button{
+    border: 2px solid white;
+    background-color: orange;
+    border-radius: 3px;
+    padding: 3px;
+}
+#button:hover{
+    background-color: white;
+    border: 2px solid orange;
+    color: orange;
+}
+
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 800px;
+    margin-left:100px ;
+    justify-content: center;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    width:680px ;
+    padding-right: 0px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+    height: 30px;
+   margin: 10px ;
+    background-color: white;
+    border-radius: 5px; 
+}
+nav ul li:hover{
+    background-color:orange;
+    border: 3px solid white;
+}
+nav ul li a {
+    text-decoration: none;
+    margin: 10px;
+    color: orange;
+}
+nav ul li a:hover{
+    color: white;
+}
+
+
+.contenu{
+    max-width: 1200px;
+    margin:20px auto ;
+    padding-left:25px;
+    padding-right:25px ;
+}
+.ligne{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.bienvenu{
+    width:100%;
+    background-image: url("../image/abba3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-right:20%;
+    height: 350px;
+}
+.bien{
+    display: flex;
+    width: 1108px;
+   margin-bottom: 70px;
+   margin-top: 20px;
+}
+.bien i{
+    color: white;
+}
+.bien h1{
+        margin-left: 200px;
+        width:1000px;
+        animation-duration: 20s;
+        animation-name: titre;
+        animation-iteration-count: infinite;
+      }
+      @keyframes titre {
+        0%{
+            transform: translateX(0); 
+         }
+         30%{
+             transform: translateX(-100px);
+         }
+         60%{
+             transform: translateX(-00px);
+         }
+         90%{
+             transform: translateX(-200px);
+         }
+         100%{
+             transform: translateX(0);
+         }
+      }
+     
+.lien1{
+    display: flex;
+    width:100%;
+    height: 205px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+.input-group input {
+border: 2px solid blue;
+}
+.img2 img{
+    width:250px;
+    height: 200px;
+    margin-right: 3px;
+}
+.img2{
+    display: flex;
+    flex-wrap: nowrap;
+    width:1108px;
+    height: 200px;
+    padding-bottom: 0%;
+    margin-bottom: 0px;
+    animation-duration: 20s;
+    animation-name: images;
+    animation-iteration-count: infinite;
+}
+@keyframes images{
+    0%{
+       transform: translateX(0); 
+    }
+    30%{
+        transform: translateX(-100px);
+    }
+    60%{
+        transform: translateX(-00px);
+    }
+    90%{
+        transform: translateX(-200px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.contact {
+    width:100%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: 50px 0;
+}
+.contact h4{
+    width:40%;
+    margin-left: 350px;
+    color: white;
+    animation-duration: 20s;
+    animation-name: titre;
+    animation-iteration-count: infinite;
+}
+@keyframes titre{
+    0%{
+       transform: translateX(0); 
+    }
+    30%{
+        transform: translateX(-100px);
+    }
+    60%{
+        transform: translateX(-00px);
+    }
+    90%{
+        transform: translateX(-200px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.contact p{
+    color: white;
+}
+.contact a {
+    text-decoration: none;
+    color: orange;
+}
+
+.contact {
+    width:100%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: 10px 0;
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin-left: 350px;
+
+}
+.cont input {
+    height: 40px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+
+}
+.input{
+    width: 250px;
+    height: 30px;
+}
+.sub {
+    width: 300px;
+margin-left: 425px;
+}
+.sub label {
+    color: orange;
+}
+footer{
+    display: flex;
+    width: 100%;
+}
+footer nav {
+   margin-left:25%;
+}
+footer address span{
+    display: flex;
+    width: 200px;
+    color: white;
+}
+footer address{
+    margin:0 10%;
+}
+.copyright{
+    display: flex;
+    width: 150px;
+    color: white;
+}
+.col-2 {
+    flex-basis: 50%;
+    padding: 20px;
+    min-width: 300px;
+
+}
+.col-2 img{
+    width: 100%;
+    padding-top:30px 0;
+}
+.col-2 h1{
+    font-size: 30px;
+    line-height: 30px;
+    margin: 25px 0;
+}
+.col-2 > a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: rgb(50, 136, 151);
+    color: aliceblue;
+    border-radius: 30px;
+    margin-top: 25px;
+    transition: background 0.5s;
+}
+.col-2 a:hover{
+    background-color: aqua;
+}
+.en-tete{
+    background: rgb(219, 231, 231);
+}
+.caté{
+    margin: 70px 0;
+}
+
+.contenu h2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin: 30px 0;
+}
+.col-4{
+    flex-basis: 30%;
+    min-width: 250px;
+
+    padding: 15px;
+    transition: transform 0.5s;
+    margin: 20px 5px;
+}
+.col-4 h3{
+    color: white;
+}
+.col-4 p{
+    color: white;
+}
+.col-4 img{
+    width: 100%;
+}
+.col-4:hover{
+    transform: translateY(-10px);
+}
+.raiting .fa{
+    color: orange;
+}
+.col-4 > a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: orange;
+    color: aliceblue;
+    border-radius: 30px;
+    margin-top: 25px;
+    transition: background 0.5s;
+}
+.col-4 a:hover{
+    background-color: aqua;
+}

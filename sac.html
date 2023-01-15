@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./css/page.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>mon site e-commerce</title>
+</head>
+<!-- <a class="btn btn-light" id="retour"href="javascript:history.go(-1)">Retour</a>-->
+<body>
+    <a class="btn btn-light" id="retour"href="javascript:history.go(-1)">Retour</a>
+    <div class="contenu">
+      <div class="enhaut">
+        <i class="fa-solid fa-house-user"></i>
+        <div class="panie"><img src="image/panier.jpeg" alt="abba" height="30px" ></div>
+      </div>  
+      <section class="header">
+        <header class="menu">
+          <img id="logo" src="./image/log.png" alt="">
+          <div class="naviguer">
+            <nav class="nav">
+                <ul>
+                <li><a href ="index.html">ACCeuil </a></li>
+                
+                <li><a href ="propos.html">A propos </a></li>
+                <li> <a href ="#contact">contact </a></li>
+                <li> <a href ="connect.php"> produits</a></li>
+                <li><a href="https://wa.me/qr/UXP2TUUVA6BZB1"><i class="fa-brands fa-whatsapp"></i></a> </li>
+                <li><a href="https://instagram.com/abba.bamba.kara?igshid=NTA5ZTK1NTc"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+                  </nav>
+                <div class="recherche" >
+                  <ul>
+                    <li><i class="fa-solid fa-magnifying-glass"></i>
+                      <ul>
+                        <li>
+                  <input type="search" id="recherche" placeholder ="ex:montre,vetement,meuble,matériel cuisine"  onchange="page()"  />
+                  <input  type="button" id="button" onclick="page()" value="recherche">
+                 </li>
+                </ul>
+                </li>
+                </ul>
+              </div> 
+                  <script>
+                    function page(){
+                      var a= document.getElementById("recherche").value;
+                      if (a==="montre") {
+                        window.open("./montre.html");
+                      }
+                      if (a==="vetement") {
+                        window.open("./vetement.html");
+                      }
+                      if (a==="téléphone") {
+                        window.open("./tel.html");
+                      }
+                      if (a==="meuble") {
+                        window.open("./meuble.html");
+                      }
+                      if (a==="sac") {
+                        window.open("./sac.html");
+                      }
+                      if (a==="vélo") {
+                        window.open("./velo.html");
+                      }
+                      if (a==="voiture") {
+                        window.open("./voiture.html");
+                      }
+                      if (a==="scolaire") {
+                        window.open("./scolaire.html");
+                      }
+                      if (a==="parfum") {
+                        window.open("./parfum.html");
+                      }
+                      if (a==="chaussure") {
+                        window.open("./chaussure.html");
+                      }
+                      if (a==="matériel cuisine") {
+                        window.open("./cuisine.html");
+                      }
+          
+                    }
+                  </script>         
+          </div>
+        </header>
+        <body>
+          
+        <div class="bienvenu">
+            <div class="bien">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+                <h1> Bienvenu à Abm boutique !</h1>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <div class="lien1">
+              <div class="img2">
+               <a href="./vetement.html"><img src="./image/image1.jpeg" alt="" ></a>
+                <a href="./montre.html"><img src="./image/montre.jpeg" alt="" ></a>
+                <a href="./cuisine.html"><img src="./image/cuis.jpeg" alt="" ></a>
+                <a href="./voiture.html"><img src="./image/voi.jpeg" alt="" ></a>
+                <a href="./velo.html"><img src="./image/velo.jpeg" alt="" ></a>
+                <a href="./meuble.html"><img src="./image/meuble.jpeg" alt="" ></a>
+                <a href="./sac.html"><img src="./image/sac.jpeg" alt="" ></a>
+                <a href="./chaussure.html"><img src="./image/chaus.jpeg" alt="" ></a>
+                <a href="./outre.html"><img src="./image/outres.jpeg" alt="" ></a>
+                <a href="./tel.html"><img src="./image/phone.jpeg" alt="" ></a>
+                <a href="./scolaire.html"><img src="./image/sco.jpeg" alt="" ></a>
+                <a href="./parfum.html"><img src="./image/parf.jpeg" alt="" ></a>
+              </div>
+             
+            </div>
+        </div>
+</section>
+
+<section class="caté">
+    <div class="contenu">
+        <h2>sacs et pochettes</h2>
+        <div class="ligne">
+        <div class="col-4" >
+            <img src="./image/besace.jpeg" alt="" height="150px">
+            <h3>sac besace</h3>
+            <div class="raiting">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>3.500 frc</p>
+            <a href="formulaire.html">Achetez &#8594</a>
+        </div>
+          <div class="col-4">
+            <img src="./image/cabas.jpeg" alt="" height="150px">
+            <h3>sac cabas</h3>
+            <div class="raiting">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>2.500 frc</p>
+            <a href="formulaire.html">Achetez &#8594</a>
+        </div>
+        <div class="col-4">
+            <img src="./image/pen.jpeg" alt="" height="150px">
+            <h3>pochette en enveloppe</h3>
+            <div class="raiting">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>7000 frc</p>
+            <a href="formulaire.html">Achetez &#8594</a>
+        </div>
+        <div class="col-4">
+            <img src="./image/poa.jpeg" alt="" height="150px">
+            <h3>pochette africaine</h3>
+            <div class="raiting">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>3000 frc</p>
+            <a href="formulaire.html">Achetez &#8594</a>
+        </div>
+        <div class="col-4">
+            <img src="./image/rond.jpeg" alt="" height="150px">
+            <h3>sac en rond</h3>
+            <div class="raiting">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>4000 frc</p>
+            <a href="formulaire.html">Achetez &#8594</a>
+        </div>
+        <div class="col-4">
+            <img src="./image/fourr.jpeg" alt="" height="150px">
+            <h3>sac fourr pour femme</h3>
+            <div class="raiting">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>5000 frc</p>
+            <a href="formulaire.html">Achetez &#8594</a>
+        </div>
+        <div class="col-4">
+            <img src="./image/pof.jpeg" alt="" height="150px">
+            <h3>sac portefeuille</h3>
+            <div class="raiting">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>8000 frc</p>
+            <a href="formulaire.html">Achetez &#8594</a>
+        </div>
+        <div class="col-4">
+            <img src="./image/dos.jpeg" alt="" height="150px">
+            <h3>sac à dos</h3>
+            <div class="raiting">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>7000 frc</p>
+            <a href="formulaire.html">Achetez &#8594</a>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+<footer>
+    <address>
+      <span>siége :Touba</span> 
+    </address>
+    <div class="copyright">
+      &copy;copyright_bamba__merci
+    </div>
+    <nav>
+      <ul>
+        <li><a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fbetheboutique"><i class="fa-brands fa-facebook"></i></a> </li>
+        <li><a href="https://wa.me/qr/UXP2TUUVA6BZB1"><i class="fa-brands fa-whatsapp"></i></a> </li>
+        <li><a href="https://instagram.com/abba.bamba.kara?igshid=NTA5ZTK1NTc"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZnIifQ%3D%3D%22%7D"><i class="fa-brands fa-twitter"></i></a> </li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
